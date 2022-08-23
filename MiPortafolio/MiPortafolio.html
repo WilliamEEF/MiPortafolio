@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mi Portafolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
+    <style>
+      #volver {
+    margin-bottom: 15px;
+    display: inline-block;
+    background-color: rgb(253, 204, 182);
+    color: black;
+    padding: 19px;
+    text-decoration: none;
+    border-radius: 30px;
+    border-color: black;
+    border-style: groove;
+    float: right;
+      }
+
+      #volver:hover {
+    background-color: rgb(214, 172, 152);
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1 id="back">WILLIAM EDUARDO ESPIN FREITES</h1>
+      <div class="principal">
+        <h1 id="back">WILLIAM EDUARDO ESPIN FREITES</h1>
+      </div>
       <nav>
-        <ul>
+        <img src="./images/MiFoto1.jpg"class="bordes-redondos" alt="Mi Foto" 
+      width="320" height="350" />
+        <ul id="lista">
           <li><a href="#inicio">Un poco sobre mi</a></li>
           <li><a href="#style">Por que elegi programacion</a></li>
           <li><a href="#trajectory">Mis estudios</a></li>
           <li><a href="#work">Mi anteriores trabajos</a></li>
           <li><a href="#channel">Curiosidades sobre mi</a></li>
-          <li><a href="#contact">Contactame</a></li>
-
         </ul>
       </nav>
-      <h2><a id="inicio"></a>UN POCO SOBRE MI</h2>
-      <img src="./images/MiFoto1.jpg" alt="Mi Foto" width="300" height="350" />
     </header>
     <main>
-      <p>
-        Como ya saben mi nombre es William, naci el 12 de abril del 2002, asi
+
+    <div class="contenedor">
+      <h2 id="inicio">UN POCO SOBRE MI</h2>
+      <p id="text">
+        Como ya saben mi nombre es William, naci el 12 de abril del 2002, asi 
         que actualmente cuando estoy escribiendo tengo 20 años. Me gradue de
         bachiller en el 2019 e iba a comenzar mis estudios para ser diseñador
         grafico cuando la pandemia comenzo, asi que me vi obligado a hacer el
@@ -40,7 +61,7 @@
         complicado al inicio pero poco a poco me gui adtando, ahora soy bilinfue
         con idioma natal que es español y fluente en el portugues
       </p>
-      <h4 id="style">POR QUE ELEGI PROGRAMACION</h4>
+      <h2 id="style">POR QUE ELEGI PROGRAMACION</h2>
       <p>
         Sinceramente nunca crei involucrarme con nada que tuviera que ver con el
         area de programacion, claro quie siempre e tenido contacto con el haria
@@ -57,7 +78,8 @@
         momento y por esa razon por la que ahora estoy cursando para tener
         aprender a programar en el area de front-end
       </p>
-      <h4 id="trajectory">MIS ESTUDIOS Y CURSOS</h4>
+    </div>
+      <h2 id="trajectory">MIS ESTUDIOS Y CURSOS</h2>
       <p>
         a lo largo del tiempo tengo estudiado:
         <ul>
@@ -66,7 +88,8 @@
             <li>curso de diseñador grafico</li>
         </ul>
       </p>
-      <h4 id="work">MIS ANTERIORES TRABAJOS</h4>
+    <div class="contenedorX">
+      <h2 id="work">MIS ANTERIORES TRABAJOS</h2>
       <P>
         anteriormente trabaja de forma persencial como anlista soporte para computadoras 
         e impresoras, aunque estaba mas enfocado en el aera de las impresoras.
@@ -77,8 +100,9 @@
         solamente en el area de las computadoras, como ya dije yo siempre e estado en el area 
         de la tecnologia
       </P>
+    </div>
       <section class="Music">
-        <h4><a id="channel"></a>CURIOSIDADES SOBRE MI</h4>
+        <h2><a id="channel"></a>CURIOSIDADES SOBRE MI</h2>
         <P>
             Como anteriormente dije me encanta el diseño, dibujar para mi es como respirar 
             me fascina dibujar, la mayoria de mis faliares dicen que tento un don, pero, y 
@@ -96,32 +120,37 @@
             <li>ESTRELLA FUGAZ</li>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-jpxbs74NC4" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen id="separacion"></iframe>
             <li>DESDE MIS OJOS</li>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZABr0npwEn4" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen id="separacion"></iframe>
             <li>MESERO</li>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ofkvHwrh2lw" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen id="separacion"></iframe>
             <li>JAULA PERFECTA</li>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/aSe3QMgc9S0" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen id="separacion"></iframe>
         </ul>
         </section>
     </main>
   </body>
   <footer>
-    <h4><a id="contact"></a>CONTACTAME</h4>
-    <ul>
-        <li><a href="https://www.instagram.com/willyto.priv/">instagram</a></li>
-        <li><a href="https://wa.me/5512997740042">WhatsApp</a></li>
-        <li><a href="https://www.facebook.com/willytopriv/">Facebook</a></li>
-    </ul>
-    <a href="#back">
-        <p style="text-align: right;">volver</p>
+    <a href="https://wa.me/5512997740042">
+      <img src="./images/whatsapp.png" width="60px" height="60px" class="link" />
     </a>
+    <a href="https://www.instagram.com/willyto.priv/">
+      <img src="./images/instagram.png" width="60px" height="60px" class="link2" />
+    </a>
+    <a href="https://www.facebook.com/willytopriv/">
+      <img src="./images/facebook.png" width="60px" height="60px" class="link3" />
+    </a>
+    <div class="contenedor">
+      <p id="contac"> Email: Willytopriv012@gmail.com</p>
+      <p id="contac"> Tlf: 12997740042</p>
+    <a href="#back" id="volver" style="text-align: right;"> VOLVER</a>
+    s</div>
 </footer>
 </html>

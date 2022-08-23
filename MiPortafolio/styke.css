@@ -1,0 +1,94 @@
+#back {
+    font-size: 50px;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    color:black;
+    text-decoration-line: overline underline;
+}
+
+.link {
+    border-radius: 50%;
+    border-color: black;
+    border-style: groove;
+    position: relative;
+    left: 1150px;
+    bottom: 2290px;
+
+}
+
+.link:hover {
+    opacity: 30%;
+}
+
+
+.link2 {
+    border-radius: 45%;
+    border-color: black;
+    border-style: groove;
+    position: relative;
+    left: 980px;
+    bottom: 2250px;px;
+}
+
+.link2:hover{
+    opacity: 30%;
+}
+
+.link3 {
+    border-radius: 45%;
+    border-color: black;
+    border-style: groove;
+    position: relative;
+    left: 800px;
+    bottom: 2290px;
+}
+
+.link3:hover {
+    opacity: 30%;
+}
+
+.bordes-redondos {
+    border-radius: 50%;
+    border-color: black;
+    border-style: groove;
+    float: right;
+    position: relative;
+    bottom: 20px;
+} 
+
+#back {
+    text-decoration-line: overline underline;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lista {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(253, 204, 182);
+}
+
+.contenedor {
+    background-color: rgb(255, 151, 139);
+}
+
+.contenedorX {
+    background-color: rgb(255, 151, 139);
+}
+
+.principal {
+    background-color: rgb(255, 151, 139);
+}
+
+#contac {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
